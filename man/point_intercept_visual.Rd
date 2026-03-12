@@ -85,8 +85,8 @@
   \code{\link{species_table}}
 }
 
-\authors{
-  Irene Martín-Forés & Greg R. Guerin.
+\author{
+  Irene Martin-Fores and Greg R. Guerin.
 }
 
 \examples{
