@@ -13,7 +13,7 @@ Authors@R: c(
     person("Andrew", "Tokmakoff", role = "aut"))
 Maintainer: Greg Guerin <ggueri01@gmail.com>
 Depends:
-    R (>= 3.1.0),
+    R (>= 3.5),
     ggplot2,
     mapdata
 Suggests:
@@ -40,3 +40,4 @@ License: GPL-3
 VignetteBuilder: knitr
 RoxygenNote: 7.3.2
 Encoding: UTF-8
+LazyData: true
