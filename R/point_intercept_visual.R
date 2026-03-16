@@ -45,18 +45,18 @@ point_intercept_visual <- function(ausplots,
   height_classes <- function(h) {
     h_class <- rep(NA, length(h))
     h_class[h < 3] <- "<3 m"
-    h_class[h >= 3 & h < 6] <- "3–6 m"
-    h_class[h >= 6 & h < 10] <- "6–10 m"
+    h_class[h >= 3 & h < 6] <- "3-6 m"
+    h_class[h >= 6 & h < 10] <- "6-10 m"
     h_class[h >= 10] <- ">10 m"
     
-    factor(h_class, levels = c("<3 m", "3–6 m", "6–10 m", ">10 m"))
+    factor(h_class, levels = c("<3 m", "3-6 m", "6-10 m", ">10 m"))
   }
   
   height_sizes <- c(
-    "<3 m" = 0.7,
-    "3–6 m" = 1.2,
-    "6–10 m" = 1.8,
-    ">10 m" = 2.6
+    "<3 m" = 0.6,
+    "3-6 m" = 1.2,
+    "6-10 m" = 1.8,
+    ">10 m" = 2.4
   )
   
   # ----------------------------
