@@ -14,7 +14,7 @@ species_traits <- function(ausplots = NULL,
   # -----------------------------
   # internal static trait table
   # -----------------------------
-  trait_table <- trait_data_pp
+  trait_table <- get("trait_data_pp", envir = asNamespace("ausplotsR"))
   
   # -----------------------------
   # checks
